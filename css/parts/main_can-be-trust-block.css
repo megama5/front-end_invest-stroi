@@ -9,13 +9,17 @@ we can be trust
 }
 
 .advertising-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	font-size: 0;
 }
 
 
 .advertising-list-item {
 	display: inline-block;
-	width: 32%;
+	width: 250px;
+  margin-bottom: 30px;
 	color: #283754;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
@@ -23,9 +27,6 @@ we can be trust
 	line-height: 16px;
 	text-align: center;
   vertical-align: text-top;
-}
-.advertising-list-item:nth-child(2){
-	margin:0 2%;	
 }
 
 .advertising-list-item .img-holder{

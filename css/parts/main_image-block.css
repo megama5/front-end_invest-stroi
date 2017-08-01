@@ -15,9 +15,11 @@ Image block under the header
 
 .container-image .img{
 	display: block;
-	width: 80%;
-  margin: 0 auto;
+	position: relative;
+	/*width: 50%;*/
+  /*margin: 0 auto;*/
 	height: 530px;
+	transition: width .3s ease;
 	/*background: url("../../img/building_1.png") center no-repeat; */
 }
 
@@ -25,8 +27,8 @@ Image block under the header
 	width: 305px;
 	height: 55px;
 	position: absolute;
-	top: 1px;
-	right: 15%;
+	top: 0;
+	right: 0;
 	background-color: #283754;	
 	text-align: right;
 	color: #fefefe;
@@ -40,15 +42,15 @@ Image block under the header
 
 .container-image_text-info{
 	width: 325px;
-	height: 70px;
+	/*height: 70px;*/
 	position: absolute;
 	top: 15%;
-  right: 25%;
+  right: 5%;
 	color: #fefefe;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 34px;
 	font-weight: 700;
-	line-height: 45px;
+	line-height: 40px;
 	text-transform: uppercase;
 	transition: all .3s ease;
 }
@@ -132,6 +134,9 @@ Image block under the header
 }
 
 	
+@media (max-width: 1000px){
+
+}
 
 @media handheld, (max-width: 800px){
 	.container-image_phone{

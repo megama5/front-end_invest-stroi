@@ -22,10 +22,10 @@
 			<nav class="nav-menu">
 				<ul>
 					<li class="nav-menu_element"><a href="#" class="nav-menu_link nav-menu_current-link"><span class="nav-menu_text">главная</span></a></li>
-					<li class="nav-menu_element"><a href="#" class="nav-menu_link"><span class="nav-menu_text">жк<br>жемчужины</span></a></li>
+					<li class="nav-menu_element"><a href="#" class="nav-menu_link"><span class="nav-menu_text">новости</span></a></li>
 					<li class="nav-menu_element"><a href="#" class="nav-menu_link"><span class="nav-menu_text">вторичная<br>недвижимость</span></a></li>
 					<li class="nav-menu_element"><a href="#" class="nav-menu_link"><span class="nav-menu_text">коммерческая<br>недвижимость</span></a></li>
-					<li class="nav-menu_element"><a href="#" class="nav-menu_link"><span class="nav-menu_text">котеджи</span></a></li>
+					<li class="nav-menu_element"><a href="#" class="nav-menu_link"><span class="nav-menu_text">дома<br>котеджи</span></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -34,7 +34,7 @@
 
 	<main>
 		<div class="container-image">
-			<a href="#" class="img">
+			<a href="#" class="container img">
 				<!-- <img id="bImage" src="img/building_1.png" alt="building_1"> -->
 				<div class="container-image_phone">
 					<span>+380503358856</span>
@@ -68,29 +68,41 @@
 		</div>
 		<!-- .container-image -->
 
-		<section class="container-main-block">
+		<section class="container container-main-block">
 
-			<div class="container-main-block_serch-block">
+			<div class="serch-block">
 				<h1 class="section-header">лучшие квартиры от kador group</h1>
-				<div class="container-main-block_serch-block_elements">
-					<select name="" id="">
-						<option value="">город</option>
-					</select>
-					<select name="" id="">
-						<option value="">район</option>
-					</select>
-					<select name="" id="">
-						<option value="">жемчужина</option>
-					</select>
-					<input class="container-main-block_serch-block_elements_go-serch-button" type="button" value="поиск">
-				</div>
+				<form class="buttons">
+					<ul>
+						<li class="buttons-block">
+							<select name="" id="">
+								<option value="город">город</option>
+							</select>
+						</li>
+						<li class="buttons-block">
+							<select name="" id="">
+								<option value="район">район</option>
+							</select>
+						</li>
+						<li class="buttons-block">
+							<select name="" id="">
+								<option value="жемчужина">жемчужина</option>
+							</select>
+						</li>
+						<li class="buttons-block">
+							<input class="button-serch" value="поиск">
+						</li>
+					</ul>
+				</form>
 			</div>
-			<!-- .container-main-block_serch-block -->
+			<!-- .serch-block -->
 
-			<div class="container-main-block_house-block">
+			<div class="buildings-news">
 				<h1 class="section-header">жилые комплексы</h1>
-				<div class="container-main-block_house-block_houses">
-					<div class="container-main-block_house-block_houses_elements">
+
+				<div class="buildings-holder">
+
+					<div class="building">
 						<a class="hImages h_img1" href="#"></a>
 						<p class="hText">
 							22-я  жемчужина<br>
@@ -99,7 +111,8 @@
 						</p>
 						<a class="hDetailed" href="#"><span>подробнее</span></a>
 					</div>
-					<div class="container-main-block_house-block_houses_elements">
+
+					<div class="building">
 						<a class="hImages h_img2" href="#"></a>
 						<p class="hText">
 							22-я  жемчужина<br>
@@ -108,7 +121,8 @@
 						</p>
 						<a class="hDetailed" href="#"><span>подробнее</span></a>
 					</div>
-					<div class="container-main-block_house-block_houses_elements">
+
+					<div class="building">
 						<a class="hImages h_img3" href="#"></a>
 						<p class="hText">
 							22-я  жемчужина<br>
@@ -117,6 +131,7 @@
 						</p>
 						<a class="hDetailed" href="#"><span>подробнее</span></a>
 					</div>
+
 				</div>	
 			</div>
 			<!-- .container-main-block_house-block -->
@@ -169,7 +184,7 @@
 
 		<section class="container-prefooter">
 			<div class="container-main-block">
-			<div class="advertising">
+			<div class="container advertising">
 				<h2 class="section-header">нам можно доверять</h2>
 				<ul class="advertising-list">
 					<li class="advertising-list-item">
@@ -191,7 +206,7 @@
 			</div>
 			<!-- .advertising -->
 
-			<div class="contacts">
+			<div class="container contacts">
 				<h2 class=" section-header">свяжитесь с нами</h2>
 				<div class="contacts-data">
 					<div class="contacts-data-block">

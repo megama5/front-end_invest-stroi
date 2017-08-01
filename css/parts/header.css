@@ -66,3 +66,26 @@ header
 	pointer-events: none;
 	cursor: default;
 }
+
+/* main page dont have those*/
+.bg-line{
+	height: 54px;
+	background-color: #283754;
+	margin-bottom: 30px;
+}
+.bg-line .container{
+	line-height: 54px;
+	text-align: right;
+}
+
+.bg-line span{
+	background-color: #283754;	
+	text-align: right;
+	vertical-align: middle;
+	color: #fefefe;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
