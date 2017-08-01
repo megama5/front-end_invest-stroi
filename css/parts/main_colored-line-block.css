@@ -1,0 +1,105 @@
+
+/*----------------------------------
+colored line with image text data
+-----------------------------------*/
+.container-main-block_colored-lines{
+	margin-bottom: 100px;
+}
+
+.container-main-block_colored-lines .section-header{
+	margin-bottom: 80px;
+}
+.colored-line{
+	width: 100%;
+	height: 275px;
+	
+}
+.colored-line:nth-child(odd){
+	background-color: #1e3054;
+}
+.colored-line:nth-child(even){
+	background-color: #293b5f;
+}
+.colored-line_data{
+	width:600px;
+	margin:0 auto;
+	position: relative;
+}
+.colored-line-image{
+	width: 250px;
+	height: 250px;	
+	display: block;
+	position: absolute;
+	top:-35px;
+	
+}
+
+.colored-line-text{
+	height: inherit;
+	width: 250px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	padding-top: 25px;
+}
+
+.colored-line:nth-child(odd) .colored-line-image,
+.colored-line:nth-child(even) .colored-line-text{
+	left: 0;
+}
+
+.colored-line:nth-child(odd) .colored-line-text{
+	right: 0;
+}
+.colored-line:nth-child(even) .colored-line-image{
+	right: 0;
+	top: 60px;	
+}
+
+.colored-line-text{
+	color: #fff;
+}
+.clt-header,.clt-header{
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;	
+}
+.clt-header{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	/* Text style for "офис" */
+	font-size: 20px;
+	/* Text style for "на проспек" */
+	/*font-size: 12px;*/
+	margin-bottom: 10px;
+}
+.clt-subheader{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.clt-main-text{
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.clt-price{
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	/* Text style for "149 000" */
+	text-transform: uppercase;
+
+}
+
+/*test mode*/

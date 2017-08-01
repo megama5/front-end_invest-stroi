@@ -1,0 +1,131 @@
+/*--------------------------------------
+main section with serching tools and some
+house images 
+----------------------------------------*/
+
+.container-main-block{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.container-main-block_serch-block{
+	margin-bottom: 70px;
+}
+
+
+.container-main-block_serch-block_elements{
+	/*text-align: center;*/
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 0;
+	
+}
+
+.container-main-block_serch-block_elements>select{
+	height: 34px;
+	width: 190px;
+	margin-right: 18px;
+	padding-left: 15px;
+	height: 34px;
+	border-radius: 1px 2px 2px 1px;
+	border: 1px solid #283754;
+	
+	color: #010101;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+	-webkit-appearance: none;
+	-moz-appearance:none;
+	appearance:none;
+  
+	background: url("../../img/select-icon.png") no-repeat 98% 50%;
+	/*line-height: 60px;*/
+}
+
+
+.container-main-block_serch-block_elements_go-serch-button{
+	width: 135px;
+	height: 34px;
+	margin-right:0;
+	border:none;
+	border-radius: 1px;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	text-transform: capitalize;
+	padding-left: 16px;
+	box-sizing: border-box;
+	background: url("../../img/serch-batton-icon.png") no-repeat 90.4% 50% #283754;
+}
+.container-main-block_serch-block_elements_go-serch-button:focus{
+	outline: none;
+}
+.container-main-block_serch-block_elements_go-serch-button:hover{
+	cursor: pointer;
+}
+
+/* bulding section here*/
+.container-main-block_house-block{
+	/*hole block here*/
+	padding: 0 20px;
+	font-size: 0;
+	margin-bottom: 45px;
+}
+
+.container-main-block_house-block_houses_elements{
+	/*one single element*/
+	max-width: 224px;
+	display: inline-block;
+	margin-right: 44px;
+}
+.container-main-block_house-block_houses_elements:last-child{
+	margin-right: 0;
+}
+
+.hImages{
+	display: inline-block;
+	width: 224px;
+  height: 241px;
+	margin-bottom: 24px;
+}
+/* TODO -> need chenges to organize this from backend in php cicle*/
+.h_img1{
+	background: url("../../img/house-selling-start-border.png") no-repeat 50% 50%,
+	url("../../img/house_01.png") no-repeat 50% 50%;
+}
+.h_img2{
+	background: url("../../img/house-top-selling-border.png") no-repeat 50% 50%,
+	url("../../img/house_02.png") no-repeat 50% 50%;
+}
+.h_img3{
+	background: url("../../img/house-finished-border.png") no-repeat 50% 50%,
+	url("../../img/house_03.png") no-repeat 50% 50%;
+}
+.hText{
+	max-width: 125px;
+	color: #283754;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	margin-bottom: 30px;
+}
+
+.hDetailed{
+	width: 125px;
+	height: 30px;
+	display: block;
+	border: 1px solid #283754;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #283754;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	
+}

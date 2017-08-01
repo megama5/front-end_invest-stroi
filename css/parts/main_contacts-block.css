@@ -1,0 +1,109 @@
+
+
+/*----------------------------------
+contacts with map
+-------------------------------------*/
+.contacts-data{
+	font-size: 0;
+}
+.contacts-data-block{
+	width: 50%;
+	display: inline-block;
+	vertical-align: text-top;	
+	font-size: 16px;
+}
+
+.contacts-data-block:nth-child(2){
+	text-align: right;
+}
+
+
+.contacts-header{
+	margin-bottom: 55px;
+}
+
+.contacts-header{
+	color: #283754;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	margin-bottom: 23px;
+}
+
+.contacts-addr{
+	color: #9d9fa3;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	margin-bottom: 17px;
+}
+
+.contacts-map{
+	display: block;
+	margin-bottom: 80px;
+}
+
+.contacts-header1{
+	line-height: 20px;
+}
+
+.contacts-phones-list {
+	color: #9d9fa3;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.contacts-inner-phone-list{
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.contacts-data-block-header{
+	line-height: 20px;
+	text-align: left;
+}
+.contacts-form{
+	width: 260px;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+.contacts-input{
+
+}
+    
+.contacts-input-area,.contacts-input{
+	display: block;
+  width: 100%;
+  box-sizing: border-box;	
+  margin-bottom: 3px;
+	color: #9d9fa3;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+.contacts-submit{
+		width: 83px;
+    height: 26px;
+    margin-right: 0;
+    border: none;
+    border-radius: 1px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    background: #283754;
+}
+.contacts-submit:hover{
+	cursor: pointer;
+	box-shadow: 0 0 2px black;
+}

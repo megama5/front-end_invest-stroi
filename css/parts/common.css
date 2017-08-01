@@ -1,0 +1,33 @@
+/*----------------------------------
+common
+-----------------------------------*/
+
+/*@font-face{
+	font-family: "Ubuntu";
+	src: url("ubuntu-font-family-0.83/Ubuntu-R.ttf");
+}
+*/
+body{
+	width: 100%;
+}
+.sup{
+	  vertical-align: super;
+    font-size: 14px;
+}
+
+.white{
+	background-color: #fff;
+}
+
+/* for all image in link*/
+/* this option enable an oportunity to set
+	width and heght of an image via setting this
+	parameters only on <a> parent container*/
+a>img{
+	width: inherit;
+	height: inherit;
+}
+
+main{
+	margin-bottom: 55px;
+}

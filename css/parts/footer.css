@@ -1,0 +1,80 @@
+/*----------------------------------
+footer
+-----------------------------------*/
+footer{
+	background-color: #283754;
+}
+
+.container-footer{
+	/*width: 1170px;*/
+	width: 87%;
+	height: 82px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 0px;
+	/*background-color: yellow;*/
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.container-footer:before{
+	height:100%;
+	display:inline-block;
+	vertical-align:middle;
+  content:"";
+}
+
+.container-footer label{
+	color: #ffffff;
+	font-family: "Myriad Pro";
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;	
+}
+
+
+.container-footer_left-block,.container-footer_right-block{
+	display: inline-block;
+	/*background-color: green;*/
+} 
+
+.container-footer_left-block>*, .container-footer_right-block>*{
+	display: inline-block;
+	vertical-align: middle;
+}
+.container-footer_left-block>*{
+	margin-right: 20px;
+}
+
+.container-footer_left-block{
+	width: 40%;
+	text-align: left;
+}
+
+.container-footer_right-block{
+	width: 60%;
+	text-align: right;
+}
+
+.mail-holder{
+	height: 30px;
+  display: inline-flex;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  border: 1px solid white;
+  align-content: center;
+}
+  
+.umail{
+	background-color: #283754;
+	color: #fff;
+	border: none;
+}
+
+.umail:focus{
+	outline: none;
+}
+.umail::placeholder{
+	color:#fff;
+}
