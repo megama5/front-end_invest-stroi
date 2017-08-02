@@ -16,12 +16,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-bottom: 45px;
 }
 
 
 .result-block .elements{
 	width: 270px;
-	margin: 0 2px;
+	margin: 0 2px 20px 2px;
 }
 
 .elements .img{
@@ -30,7 +31,7 @@
 	position: relative;
 	width: inherit;
 	height: 220px;
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 	background: url('../img/bulding-main-photo.png') no-repeat center;
 }
 
@@ -55,14 +56,15 @@
 } 
 
 .elements .short-info{
+	text-align: left;
 	color: #283754;
 	font-family: "Myriad Pro";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
 	padding: 0 10px;
-	text-align: left;
-	padding: 0 10px;
+	margin-bottom: 10px;
+
 }
 
 .elements .link{
@@ -70,7 +72,7 @@
 	text-decoration: none;color: #8f7559;
 	font-family: Roboto;
 	font-size: 14px;
-	line-height: 60px;
+	line-height: 20px;
 	transition: all .3s ease;
 }
 
