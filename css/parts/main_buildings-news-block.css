@@ -1,0 +1,77 @@
+/*---------------------------------------------------------------
+bulding section here
+-----------------------------------------------------------------*/
+.buildings-news{
+	/*hole block here*/
+	padding: 0 20px;
+	font-size: 0;
+	margin-bottom: 45px;
+}
+.buildings-holder{
+	font-size: 0;
+	/*text-align: center;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/*text-align: center;*/
+}
+
+.building{
+	/*one single element*/
+	max-width: 225px;
+	display: inline-block;
+	margin-bottom: 10px;
+	/*margin: 0 44px 10px 0;*/
+	
+}
+.building:last-child{
+	margin-right: 0;
+}
+
+.building .hImages{
+	display: inline-block;
+	width: 224px;
+  height: 241px;
+	margin-bottom: 24px;
+}
+/* TODO -> need chenges to organize this from backend in php cicle*/
+.building .h_img1{
+	background: url("../../img/house-selling-start-border.png") no-repeat 50% 50%,
+	url("../../img/house_01.png") no-repeat 50% 50%;
+}
+.building .h_img2{
+	background: url("../../img/house-top-selling-border.png") no-repeat 50% 50%,
+	url("../../img/house_02.png") no-repeat 50% 50%;
+}
+.building .h_img3{
+	background: url("../../img/house-finished-border.png") no-repeat 50% 50%,
+	url("../../img/house_03.png") no-repeat 50% 50%;
+}
+.building .hText{
+	max-width: 125px;
+	color: #283754;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	margin-bottom: 30px;
+}
+
+.building .hDetailed{
+	width: 125px;
+	height: 30px;
+	display: block;
+	border: 1px solid #283754;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #283754;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	
+}

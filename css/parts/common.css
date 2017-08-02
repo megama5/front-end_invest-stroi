@@ -31,3 +31,32 @@ a>img{
 main{
 	margin-bottom: 55px;
 }
+
+hr{
+	margin-bottom: 50px;
+}
+
+.container{
+	max-width: 890px;
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.container-big{
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+
+.container-main-block{
+	
+}
+
+@media screen and (max-width: 680px) {
+	.container, .container-big{
+		width: 96%;
+	}
+}
