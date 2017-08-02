@@ -100,4 +100,6 @@
 
 .contacts-holder .inline{
 	width: 50%;
+	vertical-align: top;
+	min-width: 270px;
 }
