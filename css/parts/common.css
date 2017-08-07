@@ -9,7 +9,9 @@ common
 */
 body{
 	width: 100%;
+	padding-top: 15px;
 }
+
 .sup{
 	  vertical-align: super;
     font-size: 14px;
@@ -59,4 +61,21 @@ hr{
 	.container, .container-big{
 		width: 96%;
 	}
+}
+
+
+/* arrows */
+.arrow-down{
+    position: absolute;
+    border-top: 6px solid #283754;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    /* 0 - base rigth posittion and 6px is the bt width witch is the
+    arrow width*/
+    right: calc(0% - 6px);
+    /* 50% set top point to the parent middle and move arrow up
+    to its height witch is the left and right border width of 4px*/
+    top: calc(50% - 4px);
+    width: 0;
+    height: 0;
 }
