@@ -13,35 +13,45 @@ header
 	margin-bottom: 40px;
 }
 
-.container-header{
+.nav-block{
 	width: 890px;
 	height: 65px;	
 	margin: 0 auto;
+	font-size: 0;
 }
 
 .logo{
 	display: inline-block;
-	float: left;
 	vertical-align: middle;
+	width: 30%;
 }
 
+/*override global settings*/
+.logo>img{
+	/*all of those sets to inherit for all a>img on this site*/
+	width: auto;  
+	height: auto;
+}
+
+/* menus with buttons*/
 .nav-menu{
+	width: 70%;
 	display: inline-block;
-	float: right;
-	margin-top: 18px; /*place right menu on one line with left logo text*/
 	vertical-align: middle;
-
+	text-align: right;
+}
+.nav-menu>*{
+	text-align: left;
 }
 
-.nav-menu::after{
-	content: "";
-	clear: both;
-}
 
 .nav-menu_element{
+	height: inherit;
 	display: inline-block;
+	/*vertical-align: top;*/
 	margin-right: 25px;
-	vertical-align: top;
+	padding-top: 18px;
+	box-sizing: border-box;
 }
 .nav-menu_element:last-child{
 	margin-right: 0;
@@ -54,17 +64,53 @@ header
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
+	display: block;
 }
 
 .nav-menu_link:hover{
 	text-decoration: underline;
 }
 
-.container-header .nav-menu_current-link{
+.nav-menu_current-link{
 	color:#8f7559;
 	text-decoration: none;
 	pointer-events: none;
 	cursor: default;
+}
+
+.dropdown-menu-colder{
+	position: relative;
+}
+
+/* dropdown menu*/
+.dropdown-menu-holder{
+	position: relative;
+	padding-right: 4px;
+}
+
+.header-block-menu{
+	display: none;
+	position: absolute;
+}
+.header-block-menu li{
+	/*margin-bottom: 10px;*/
+	padding: 15px;
+}
+
+.header-block-menu li:last-child{
+	margin-bottom: 0;
+}
+.header-block-menu li:hover{
+	background-color: lightgray;
+}
+
+.dropdown-menu-holder:hover .header-block-menu{
+	display: block;
+	z-index: 1;
+	box-shadow: 0 8px 18px;
+	width: 200px;
+	background-color: white;
+	/*padding: 15px;*/
 }
 
 /* main page dont have those*/
