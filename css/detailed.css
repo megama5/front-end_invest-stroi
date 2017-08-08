@@ -1,0 +1,226 @@
+@import url("reset.css");
+@import url("parts/common.css");
+@import url("parts/header.css");
+@import url("parts/main_serch-block.css");
+@import url("parts/main_contacts-block.css");
+@import url("parts/global_contacts.css"); /* change some stuff from upper file*/
+@import url("parts/footer.css");
+
+/*-------------------------------------------------------------
+header
+--------------------------------------------------------------*/
+
+.info .header .section-header{
+	margin: 0 0 30px 0;
+}
+
+.info .header{
+	margin-bottom: 30px;
+} 
+
+.bg-line .section-header{
+	margin: 0;
+	color: #fff;
+	/*same as line-height from bg-line to center content*/
+	line-height: 54px; 
+}
+
+.info .section-header{
+	text-align: left;
+}
+
+.info-data-center{
+	max-width: 80%;
+	width: 100%;
+	float: left;
+}
+
+.info-data-right{
+	width: 20%;
+  float: right;
+}
+
+.info-data:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.idc-holder{
+	font-size: 0;
+	margin-bottom: 20px;
+}
+
+.idch-column-l{
+	display: inline-block;
+  width: 55%;
+  min-width: 465px;
+  max-width: 465px;
+  margin-right: 50px;
+  vertical-align: top;
+}
+
+.idch-column-r{
+	display: inline-block;
+	font-size: 16px;
+	width: 44%;
+	vertical-align: top;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.img-parts{
+	position: relative;
+}
+
+.img-vline{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.img-vline li{
+	transition: all .3s ease;
+	box-shadow: 0 0;
+}
+.img-vline li:hover{
+	transition: all .3s ease;
+	box-shadow: 0 2px 2px;
+}
+
+.img-holder{
+	position: relative !important;
+	max-width: 369px;
+}
+
+.img-holder .img-text{
+	position: absolute;
+	width: 60%;
+	bottom: 0;
+	right: 0;
+	color: #fefefe;
+	font-family: "Myriad Pro";
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+	background-color: #132343;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.text-info{
+	text-align: justify;
+	white-space: pre-line;
+	color: #283754;
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	padding: 15px;
+}
+
+.idch-column-r .header{
+	color: #0d004c;
+	font-family: "Myriad Pro";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.idch-column-r .cell{
+
+	color: #283754;
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.idch-column-r .cell:nth-child(odd){
+	/* Text style for "Район:  ," */
+	padding-right: 20px;
+	font-weight: 700;	
+}
+.idch-column-r .cell:nth-child(even){
+	/* Text style for "Приморский" */
+	padding-right: 0;
+	font-weight: 400;
+}
+
+.buttons{
+	text-align: right;
+	margin-bottom: 60px;
+}
+.buttons-block{
+	margin-right: 0;
+	width: 90%;
+}
+
+.action-buttons{
+	text-align: left;
+  padding-left: 24px;
+}
+
+.action-buttons p{
+	color: #ff0000;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+.action-buttons i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.action-buttons p:nth-child(1) i{
+	background: url("../img/detailed/heart.png") center no-repeat;
+}
+.action-buttons p:nth-child(2) i{
+	background: url("../img/detailed/mail.png") center no-repeat;
+}
+.action-buttons p:nth-child(3) i{
+	background: url("../img/detailed/print.png") center no-repeat;
+}
+
+
+/*------------------------------------------------
+planning
+---------------------------------------------------*/
+.section-header.text-left{
+	padding-left: 105px;
+	box-sizing: border-box;
+}
+
+.image-holder{
+	display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-holder li{
+	display: inline-block;
+	width: 30%;
+
+}
+
+.image-holder li img{
+	width: 100%;
+	margin-bottom: 10px;
+	transition: all .3s ease;
+	box-shadow: 0 0;
+}
+.image-holder li img:hover{
+	transition: all .3s ease;
+	box-shadow: 0 8px 16px;
+}
