@@ -1,0 +1,14 @@
+.contacts-holder{
+	max-width: 600px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.contacts-holder .inline{
+	width: 50%;
+	vertical-align: top;
+	min-width: 270px;
+}
